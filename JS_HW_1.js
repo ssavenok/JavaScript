@@ -8,7 +8,7 @@ let item_1 = 5;
 console.log(item_1)
 
 // 4. Создать переменную “item_2”
-let item_1;
+let item_2;
 
 // 5. Присвоить переменной item_2 цифру 3.
 let item_1 = Number(3);
@@ -93,8 +93,8 @@ let age_3 = 60;
 // 29. Создать if в котором будите проверять значение переменной age_1
 //   if (age_1 "условие") {"инструкция"}
 // 30. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
-if (age_1 < age_2)
-console.log ("You don’t have access cause your age is "+ age_1 + " It’s less then");     
+//if (age_1 < age_2)
+//console.log ("You don’t have access cause your age is "+ age_1 + " It’s less then");     
 //You don’t have access cause your age is 10 It’s less then
 
 
@@ -103,14 +103,10 @@ console.log ("You don’t have access cause your age is "+ age_1 + " It’s less
 // 32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 // 33. Иначе выводите “Technical work”.
 
-
 if (age_1 < age_2) {
   console.log('You don’t have access cause your age is "+ age_1 + " It’s less then');
 }
-else if (age_1 >= age_2) {
-  console.log('Welcome  !');
-}
-else if (age_1 < age_2) {
+else if (age_1 >= age_2 & age_1 < age_2) {
   console.log('Welcome  !');
 }
 else if (age_1 > age_3){
